@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learny</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> 
+    <link rel="stylesheet" href="/src/styles/sign-in.css">
+    <link href='fonts.googleapis.com' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="main">
+        <div class="learny_logo">
+            <div class="learny-text">Learny</div>
+        </div>
+        <div class="sign-in">
+        <div class="d-sign-in">
+            <h2>Welcome Back, Parent!</h2>
+        <p class="intro">Login to your learny account</p>
+        <form action="" method="">
+            
+            <fieldset>
+                <div class="field-t">
+                    <div id="f-1" class="field"><label for="user_id">Email or Username</label>
+                    <input id="user_id" name="username-email" value="" type="email" placeholder="Enter your email or username" required>
+                </div>
+                <div id="f-2" class="field"><label for="user_pswd">Password</label>
+                    <!--the password is meant to be in default as text...i am leaving it as it is until i can use javascript to change it-->
+                    <input id="user_pswd" name="user-password" value="" type="password" placeholder="Enter your password" required>
+                    <!--PUT A FORGET PASSWORD PAGE-->
+                    <a href=""><p class="forgot">Forgot password?</p></a>
+                </div>
+                </div>
+                
+                <div id="f-3" class="field">
+                    <!--WE NEED JAVASCRIPT HERE-->
+                    <button type="submit" name="sign-in" value="Sign In">Sign In</button>
+                    <p class="sign-up-p">Don't have an account? <a href="/public/pages/sign-up.html" target="_blank">Sign Up</a></p>
+                </div>
+            </fieldset>
+        </form>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
