@@ -12,7 +12,176 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 0.916666666666667vw;
-  width: 100vw;
+  width: 100%;
   height: auto;
+  color: #1E1E1E;
   
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2.6042vw 0;
+}
+
+.learny_logo,
+.sign-in {
+  margin: 0 1.5625vw;
+}
+
+.sign-in {
+  padding: 0 auto;
+  width: 34vw;
+  height: 52vw;
+  border: 0.1563vw solid #fff;
+  border-radius: 1.5625vw;
+  box-shadow: 0 0.1563vw 0.1042vw 0.1042vw hsla(0, 0%, 54%, 0.793);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.d-sign-in {
+  margin-top: 4vw;
+  width: 34vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.top-text{
+  padding: 1vw;
+  height: auto;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.learny_logo {
+  background-image: url("/assets/img/side-view-two-siblings-home-together-playing-laptop\ 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 39vw;
+  height: 39vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.learny-text {
+  text-align: center;
+  font-family: 'Fredoka', 'Poppins';
+  font-size: 5.9091em;
+  font-weight: 800;
+  color:#4A90E2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+h2 {
+  color: #4a90e2;
+  font-size: 2.3em;
+  margin: 0.5208vw auto;
+  line-height: 1.15;
+}
+
+fieldset {
+  height: auto;
+  width: 32vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5208vw;
+  border: 0;
+}
+
+.field {
+  margin: 0.7813vw auto 0.2604vw;
+}
+
+label {
+  font-weight: 700;
+  color: #585757;
+}
+
+input {
+  color: #585757;
+  display: block;
+  margin: 0.7813vw 0.2604vw;
+  height: 2.5vw;
+  width: 27.5vw;
+  border: 0.1042vw solid #333;
+  border-radius: 1.3021vw;
+  padding-left: 0.5208vw;
+}
+
+input::placeholder {
+  text-align: justify;
+  font-size: 0.9091em;
+  margin-left: 1.0417vw;
+  white-space: nowrap;
+}
+
+a {
+  color: #4aa3ff;
+}
+
+a:hover,
+a:focus {
+  color: #7fbefd;
+}
+
+a:visited {
+  color: #2c94fb;
+}
+/*
+.forgot {
+  text-align: right;
+}
+*/
+
+input[type="checkbox"]{
+  width: 1.0417vw;
+  height: 1.0417vw;
+  display: inline;
+  vertical-align: middle;
+}
+#f-6 .checkbox-text{
+  font-weight: 500;
+  color: #1E1E1E;
+  
+}
+
+#f-6 .checkbox-text a{
+  text-decoration: none;
+  
+}
+
+button {
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: 720;
+  font-size: 1em;
+  height: 2.3438vw;
+  width: 26vw;
+  margin: 0 auto;
+  text-align: center;
+  border: 0.1042vw solid #4A90E2;
+  border-radius: 1.3021vw;
+}
+
+.sign-up-p {
+  text-align: center;
+  margin: 1.5625vw auto 4.6875vw;
 }

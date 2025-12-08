@@ -10,6 +10,50 @@
 
 </head>
 <body>
-    
+    <div class="main">
+        <div class="learny_logo">
+            <div class="learny-text">Learny</div>
+        </div>
+        <div class="sign-in">
+        <div class="d-sign-in">
+        <div class="top-text">
+        <h2>Create Your Parent Account</h2>
+        <p class="intro">Join Learny today and start your child's <br>learning adventure!</p>
+        </div>
+        
+        <form action="" method="">
+            
+            <fieldset>
+                <div class="field-t">
+                    <div id="f-1" class="field"><label for="user_ch_name">Child Name</label>
+                    <input id="user_ch_name" name="child-name" value="" type="text" placeholder="Enter your Child's name" required>
+                </div>
+                <div id="f-2" class="field"><label for="user_name">Full Name</label>
+                    <input id="user_name" name="user-name" value="" type="text" placeholder="Enter your name" required>
+                </div>
+                <div id="f-3" class="field"><label for="user_id">Email</label>
+                    <input id="user_id" name="user-email" value="" type="email" placeholder="Enter your email" required>
+                </div>
+                <!--Would need javascript for the eye password stuff for both password and confirm password-->
+                <div id="f-4" class="field"><label for="user_pswd">Password</label>
+                    <input id="user_pswd" name="user-password" value="" type="password" placeholder="Enter your password" required>
+                    <!--DON'T PUT A FORGET PASSWORD PAGE-->
+                    <!--<a href=""><p class="forgot">Forgot password?</p></a>-->
+                </div>
+                <div id="f-5" class="field"><label for="user_cnf-pswd">Confirm Password</label>
+                    <input id="user_cnf-pswd" name="user-cnf_pswd" value="" type="password" placeholder="Confirm your password" required>
+                </div>
+                </div>                
+                <div id="f-6" class="field"><input type="checkbox" id="ts_cs" required><label for="ts_cs" class="checkbox-text">I agree to the <a href="">Terms of Service</a> and <a href="">Privacy Policy.</a></label></div>
+                <div id="f-7" class="field">
+                    <!--WE NEED JAVASCRIPT HERE-->
+                    <button type="submit" name="Create-my-Account" value="Create my Account">Create my Account</button>
+                    <p class="sign-up-p">Already have an account? <a href="/public/pages/sign-in.html">Sign In</a></p>
+                </div>
+            </fieldset>
+        </form>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
