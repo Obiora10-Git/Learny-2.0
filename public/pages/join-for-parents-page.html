@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learny</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> 
-    <link rel="stylesheet" href="/src/styles/sign-in.css">
+    <link rel="stylesheet" href="/src/styles/join-for-parents-page.css"> 
     <link href='fonts.googleapis.com' rel='stylesheet'>
 
 </head>
@@ -17,28 +17,34 @@
         <div class="sign-in">
         <div class="d-sign-in">
         <div class="top-text">
-        <h2>Welcome Back, Parent!</h2>
-        <p class="intro">Login into your Learny account</p>
+        <h2>Create Your “For Parents” <br>Page Account</h2>
+        <p class="intro">Join Learny “for parents” page today and see what your child <br>is learning on Learnly, how they are doing each week.</p>
         </div>
+        
         <form action="" method="">
             
             <fieldset>
-                <div class="field-t">
-                    <div id="f-1" class="field"><label for="user_id">Email</label>
-                    <input id="user_id" name="username-email" value="" type="email" placeholder="Enter your email or username" required>
+                <div id="f-1" class="field"><label for="user_name">Full Name</label>
+                    <input id="user_name" name="user-name" value="" type="text" placeholder="Enter your name" required>
                 </div>
-                <div id="f-2" class="field"><label for="user_pswd">Password</label>
-                    <!--the password is meant to be in default as text...i am leaving it as it is until i can use javascript to change it-->
+                <div id="f-2" class="field"><label for="user_id">Email</label>
+                    <input id="user_id" name="user-email" value="" type="email" placeholder="Enter your email" required>
+                </div>
+                <!--Would need javascript for the eye password stuff for both password and confirm password-->
+                <div id="f-3" class="field"><label for="user_pswd">Password</label>
                     <input id="user_pswd" name="user-password" value="" type="password" placeholder="Enter your password" required>
-                    <!--PUT A FORGET PASSWORD PAGE-->
-                    <a href=""><p class="forgot">Forgot password?</p></a>
+                    <!--DON'T PUT A FORGET PASSWORD PAGE-->
+                    <!--<a href=""><p class="forgot">Forgot password?</p></a>-->
                 </div>
+                <div id="f-4" class="field"><label for="user_cnf-pswd">Confirm Password</label>
+                    <input id="user_cnf-pswd" name="user-cnf_pswd" value="" type="password" placeholder="Confirm your password" required>
                 </div>
-                
-                <div id="f-3" class="field">
+                </div>                
+                <div id="f-5" class="field"><input type="checkbox" id="ts_cs" required><label for="ts_cs" class="checkbox-text">I agree to the <a href="">Terms of Service</a> and <a href="">Privacy Policy.</a></label></div>
+                <div id="f-6" class="field">
                     <!--WE NEED JAVASCRIPT HERE-->
-                    <button type="submit" name="sign-in" value="Sign In">Sign In</button>
-                    <p class="sign-up-p">Don't have an account? <a href="/public/pages/sign-up.html" target="_blank">Sign Up</a></p>
+                    <button type="submit" name="Create “For Parents” Account" value="Create “For Parents” Account">Create “For Parents” Account</button>
+                    <p class="sign-up-p">Already have an account? <a href="/public/pages/sign-in.html">Sign In</a></p>
                 </div>
             </fieldset>
         </form>

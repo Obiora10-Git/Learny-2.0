@@ -13,35 +13,24 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 0.916666666666667vw;
-  width: 100vw;
+  width: 100%;
   height: auto;
   color:#1E1E1E;
-  
-}
-header{
-  height: auto;
-  min-width: 100vw;
-  background-color: #fff;
-  box-shadow: 0 0.1563vw 0.1042vw 0.1042vw #E0DDDD;
-  margin-bottom: 10px;
-  
-  
+  margin: 0;
+  display: grid;
+  grid-template-columns:1fr;
+  grid-auto-rows: auto;
+  justify-content: center;
+  align-items: center;
   
 }
 
-.header{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(30vw, 1fr));
-  align-content: space-between;
-  padding: 0.5208vw;
-  height: 3vw;
-  font-weight: 500;
-  
+.logo-box{
+  padding-left: 4.1667vw;
 }
 
 .logo{
-  margin-left: 4.1667vw;
+  
   width: 4.1667vw;
   height: 1.7708vw;
   font-family: 'Fredoka', 'Poppins';
@@ -51,6 +40,50 @@ header{
   text-align: center;
   padding: 0.1563vw;
   
+}
+
+.ft-logo{
+  width: 4.1667vw;
+  height: 1.7708vw;
+  font-family: 'Fredoka', 'Poppins';
+  font-weight: 700;
+  font-size: 1.8em;
+  color:#fff;
+  text-align: center;
+  padding: 0.1563vw;
+  
+}
+
+
+header{
+  height: auto;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 0 0.1563vw 0.1042vw 0.1042vw #E0DDDD;
+  margin-bottom: 5px;
+  
+  
+  
+}
+
+.header{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  align-content: center;
+  height: 3vw;
+
+  
+}
+
+.headerbox{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(31vw, 1fr));
+  align-content: space-between;
+  padding: 0.5208vw;
+  height: 3vw;
+  font-weight: 500;
 }
 
 .nav{
@@ -67,7 +100,8 @@ header{
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-content: space-evenly;
-  gap: 1.0417vw;
+  gap: 30px;    /*change it to vw*/
+
 }
 
 
@@ -99,7 +133,7 @@ nav li{
 }
 
 #s-btn{
-  margin-right: 3.125vw;
+  /*margin-right: 3.125vw;*/
   color:#fff;
   background-color:#4A90E2;
 }
@@ -126,26 +160,151 @@ nav a:active{
   color: #000000;
 }
 
-footer{
+
+
+main{
   height: auto;
-  min-width: 100vw;
+  margin: 10px 0;
+  
+
+}
+
+#sec-1{
+  height: auto;
+}
+
+
+.hero-box{
+ background-image: url('/assets/img/side-view-two-siblings-home-together-playing-laptop\ 1.png');
+  background-color: #4A90E2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+   
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-content: center;
-  padding: 50px;
+  height: 600px ;
+
+}
+
+footer{
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: #4A90E2;
 }
 
 .footer{
-  background-color: #fff;
-  width: 1480px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(30vw, 1fr));
-  align-content: space-between;
-  padding: 10px;
-  height: 250px;
-  margin-top: 50px;
-  font-weight: 500;
+  background-color: #4A90E2;
+  padding: 100px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
+  
+}
+
+.footerbox{
+  background-color: #4A90E2;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  justify-content: center;
+  align-content: space-between;
+  font-weight: 500;
+  color:#fff;
+}
+
+.ft-logo-box{
+  margin-bottom: 20px;
+}
+
+.learny_addr{
+  justify-items:left ;
+}
+
+.l-extra-info{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  gap: 50px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.content-a{
+  margin-bottom: 10px;
+}
+
+.content-b{
+  margin-bottom: 15px;
+}
+
+.cn-heading{
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.l-up-to-date{
+  justify-items: right;
+}
+
+.s-icon{
+  height: 20px;
+  width: 20px;
+  
+}
+
+.phone{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  gap: 4px;
+}
+
+#ph-icon{
+  background-image: url('/assets/img/Group\ 3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+
+#X{
+  background-image: url('/assets/img/prime_twitter.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#facebook{
+  background-image: url('/assets/img/Vector.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#insta{
+  background-image: url('/assets/img/Group\ 1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#linkedIn{
+  background-image: url('/assets/img/Vector\ \(1\).png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
