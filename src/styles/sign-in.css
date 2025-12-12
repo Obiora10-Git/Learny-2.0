@@ -69,7 +69,8 @@ body {
   align-items: center;
 }
 .d-sign-in {
-  width: 35vw;
+  display:grid;
+  grid-template-columns: 1fr;
   height: auto;
 }
 

@@ -66,8 +66,9 @@ body {
   align-items: center;
 }
 .d-sign-in {
+  display: grid;
+  grid-template-columns: 1fr;
   padding-top: 3vw;
-  width: 40vw;
   height: auto;
   display: flex;
   flex-direction: column;
