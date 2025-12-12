@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/",
-      "dest":  "/home.html"
+      "dest":  "/home-login.html"
     }
   ]
 }
