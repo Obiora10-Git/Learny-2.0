@@ -164,28 +164,65 @@ nav a:active{
 
 main{
   height: auto;
-  margin: 10px 0;
+  margin: 2.5px 0;
   
 
 }
 
-#sec-1{
-  height: auto;
-}
-
-
-.hero-box{
- background-image: url('/assets/img/side-view-two-siblings-home-together-playing-laptop\ 1.png');
+.sec-1{
+  background-image: url('/assets/img/side-view-two-siblings-home-together-playing-laptop\ 1.png');
   background-color: #4A90E2;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-   
+  background-size: cover;
+  height: 800px ;
+  padding-left: 5vw;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  height: 600px ;
+  justify-content: flex-start ;
+  align-items: center;
+}
 
+.hero-box{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  padding-top: 4vw;
+  
+
+}
+
+.hero{
+  width: 52vw;
+  line-height: 1.2;
+  
+}
+
+.landing{
+  width: 42vw;
+  font-size: 1.5em;
+  
+}
+.hero h1{
+  font-size: 6.2em;
+}
+
+.hero-btn{
+  margin-top: 15px;
+}
+
+.hero-btn button {
+  height: 50px;
+  width: 260px;
+  border-radius: 10px;
+  font-size: 1.1em ;
+  font-weight: 750;
+  background-color: #4A90E2;
+  border: 1px solid #4A90E2 ;
+  color: #fff;
 }
 
 footer{
