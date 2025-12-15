@@ -61,7 +61,7 @@ header{
   display: grid;
   grid-template-columns: 1fr;
   box-shadow: 0 0.1563vw 0.1042vw 0.1042vw #E0DDDD;
-  margin-bottom: 5px;
+  margin: 0.2604vw 0;
   
   
   
@@ -100,7 +100,7 @@ header{
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-content: space-evenly;
-  gap: 30px;    /*change it to vw*/
+  gap: 1.5625vw;    /*change it to vw*/
 
 }
 
@@ -487,11 +487,129 @@ main{
   font-size: 0.9em;
 }
 
+#sec-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.3021vw;
+}
+
+.sec-5{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 92.5vw;
+}
+
+#sec-5-A{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-left: 5.2083vw;
+}
+
+
+.sec-5-A{
+  width: 28.6458vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1.8229vw;
+}
+
+#sec-5-hd h2{
+  font-size: 2.25em;
+  
+}
+
+#sec-5-p p{
+  font-size: 1.32em;
+}
+
+.sec-5-contr{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1.6667vw;
+}
+
+.sec-5-icon-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.625vw;
+
+}
+
+.info p{
+  margin-left: 1.5625vw;
+}
+.sec-5-icon{
+  width: 1.0417vw;
+  height: 1.0417vw;
+}
+
+#sec-5-ic-a{
+  background-image:url('/assets/img/shield.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1.3021vw;
+  height: 1.3021vw;
+}
+
+#sec-5-ic-b{
+  background-image:url('/assets/img/Graduate.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#sec-5-ic-c{
+  background-image:url('/assets/img/charm_chart-line.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0.2604vw;
+}
+
+.info h5{
+  font-size: 1.15em;
+}
+
+.info p{
+  font-size: 0.9em;
+}
+
+#sec-5-B{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#sec-5-img{
+  background-image: url('/assets/img/mother-working-from-home-medium-shot\ 1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 26.0417vw;
+  height: 33.8542vw;
+}
 
 
 .sec-6{
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 0.2604vw;
   padding: 2.0833vw 3.125vw 2.0833vw 5vw;
@@ -508,6 +626,7 @@ main{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
   padding: 2.4667vw 0;
 }
 
@@ -544,6 +663,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
   font-size: 0.96em;
   font-weight: 550;
 }
@@ -558,6 +678,7 @@ main{
   flex-direction: row;
   justify-items: flex-start;
   align-content: center;
+  flex-wrap: nowrap;
   
 }
 .rating-star img{
@@ -582,6 +703,7 @@ main{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .trial-box{
@@ -595,6 +717,7 @@ main{
   background-color: #4a90e24a;
   padding: 4vw 0;
   border-radius: 2.6042vw;
+  flex-wrap: nowrap;
   
 
 }
