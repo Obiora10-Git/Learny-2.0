@@ -25,6 +25,12 @@ body {
   
 }
 
+a:active .btn , a:active button {
+    font-size: calc(99.99%);
+    white-space: nowrap;
+}
+
+
 .logo-box{
   padding-left: 4.1667vw;
 }
@@ -125,6 +131,17 @@ nav li{
   border-radius: 1.0417vw;
   font-size: 1.05em;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+a:active .btn{
+    width: 5.1083vw;
+    height: 1.6vw;
+    padding: 0.17005vw;
+    border-radius: 0.9417vw;
 }
 
 #l-btn{
@@ -223,6 +240,18 @@ main{
   background-color: #4A90E2;
   border: 0.0521vw solid #4A90E2 ;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.hero-btn a:active button{
+    height: 48px;
+    width: 242.5px;
+    border-radius: 0.5208vw;
+    margin-top: 0.1vw;
 }
 
 .sec-2{
@@ -755,6 +784,17 @@ main{
   border: 0.0521vw solid #4A90E2 ;
   color: #fff;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.trial-btn a:active button{
+    height: 2.1875vw;
+    width: 10.4167vw;
+    border-radius: 0.5208vw;
+    margin-top: 0.1vw;
 }
 
 
