@@ -198,7 +198,7 @@ input[type="checkbox"]{
   width: 31vw;
 }
 
-button {
+#submit {
   background-color: #4a90e2;
   color: #fff;
   font-weight: 720;
@@ -211,7 +211,7 @@ button {
   border-radius: 1.3021vw;
 }
 
-button:active{
+#submit:active{
   margin: 0.1vw 0 -0.01vw 0.8vw;
   height: 2.7438vw;
   width: 94%;
@@ -222,6 +222,36 @@ button:active{
   text-align: center;
   margin: 1.5625vw auto 4.6875vw;
 }
+
+.pswd-input{
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+
+#eye-btn{
+  width: 1.0417vw;
+  height: 1.0417vw;
+  background-color: #fff;
+  border:0.0521vw solid#fff;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0.651vw 1.0417vw 0.651vw 0;
+}
+
+.eye-indicator{
+  background-image: url('/assets/img/eye.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1.0417vw;
+  height: 0.7813vw;
+}
+
 
 
 footer{

@@ -29,7 +29,14 @@
                 </div>
                 <div id="f-2" class="field"><label for="user_pswd">Password</label>
                     <!--the password is meant to be in default as text...i am leaving it as it is until i can use javascript to change it-->
-                    <input id="user_pswd" name="user-password" value="" type="password" placeholder="Enter your password" required>
+                    <div class="pswd-input">
+                        <div class="eye">
+                            <button type="button" id="eye-btn">
+                                <div class="eye-indicator"></div>
+                            </button>
+                        </div>
+                        <input id="user_pswd" name="user-password" value="" type="password" placeholder="Enter your password" required>
+                    </div>
                     <!--PUT A FORGET PASSWORD PAGE-->
                     <a href=""><p class="forgot">Forgot password?</p></a>
                 </div>
@@ -37,7 +44,7 @@
                 
                 <div id="f-3" class="field">
                     <!--WE NEED JAVASCRIPT HERE-->
-                    <div class="btn"><button type="submit" name="sign-in" value="Sign In">Sign In</button></div>
+                    <div class="btn"><button id="submit" type="submit" name="sign-in" value="Sign In">Sign In</button></div>
                     <p class="sign-up-p">Don't have an account? <a href="/public/sign-up.html" target="_blank">Sign Up</a></p>
                 </div>
             </fieldset>

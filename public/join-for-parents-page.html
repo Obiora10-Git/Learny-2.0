@@ -32,18 +32,32 @@
                 </div>
                 <!--Would need javascript for the eye password stuff for both password and confirm password-->
                 <div id="f-3" class="field"><label for="user_pswd">Password</label>
-                    <input id="user_pswd" name="user-password" value="" type="password" placeholder="Enter your password" required>
+                    <div class="pswd-input">
+                        <div class="eye">
+                            <button type="button" id="eye-btn">
+                                <div class="eye-indicator"></div>
+                            </button>
+                        </div>
+                        <input id="user_pswd" name="user-password" value="" type="password" placeholder="Enter your password" required>
+                    </div>
                     <!--DON'T PUT A FORGET PASSWORD PAGE-->
                     <!--<a href=""><p class="forgot">Forgot password?</p></a>-->
                 </div>
                 <div id="f-4" class="field"><label for="user_cnf-pswd">Confirm Password</label>
-                    <input id="user_cnf-pswd" name="user-cnf_pswd" value="" type="password" placeholder="Confirm your password" required>
+                    <div class="pswd-input">
+                        <div class="eye">
+                            <button type="button" id="eye-btn">
+                                <div class="eye-indicator"></div>
+                            </button>
+                        </div>
+                        <input id="user_cnf-pswd" name="user-cnf_pswd" value="" type="password" placeholder="Confirm your password" required>
+                    </div>
                 </div>
                 </div>                
                 <div id="f-5" class="field"><input type="checkbox" id="ts_cs" required><label for="ts_cs" class="checkbox-text">I agree to the <a href="">Terms of Service</a> and <a href="">Privacy Policy.</a></label></div>
                 <div id="f-6" class="field">
                     <!--WE NEED JAVASCRIPT HERE-->
-                    <div class="btn"><button type="submit" name="Create “For Parents” Account" value="Create “For Parents” Account">Create “For Parents” Account</button></div>
+                    <div class="btn"><button id="submit" type="submit" name="Create “For Parents” Account" value="Create “For Parents” Account">Create “For Parents” Account</button></div>
                     <p class="sign-up-p">Already have an account? <a href="/public/sign-in.html">Sign In</a></p>
                 </div>
             </fieldset>

@@ -25,10 +25,6 @@ body {
   
 }
 
-a:active .btn , a:active button {
-    font-size: calc(99.99%);
-    white-space: nowrap;
-}
 
 
 .logo-box{
@@ -391,7 +387,7 @@ main{
   align-items: center;
 }
 
-.monthly:hover, .yearly:hover{
+.cover:hover .monthly, .cover:hover .yearly{
   border: 3px solid #4A90E2;
   border-radius: 0.7813vw;
 }
