@@ -194,19 +194,28 @@ input[type="checkbox"]{
   
 }
 
-
+.btn{
+  width: 31vw;
+}
 
 button {
   background-color: #4a90e2;
   color: #fff;
   font-weight: 720;
   font-size: 1em;
-  height: 2.3438vw;
-  width: 31vw;
+  height: 2.8438vw;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   border: 0.1042vw solid #4A90E2;
   border-radius: 1.3021vw;
+}
+
+button:active{
+  margin: 0.1vw 0 -0.01vw 0.8vw;
+  height: 2.7438vw;
+  width: 94%;
+  font-size: 0.9em;
 }
 
 .sign-up-p {
