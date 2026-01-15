@@ -37,7 +37,7 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   color: transparent;
+   color: #fff;
    gap: 1vw;
    padding: 1.5vw;
    border-radius: 0.5vw;
@@ -46,7 +46,7 @@ main{
    margin: auto;
 }
 
-.to-be-contd:hover{
+.to-be-contd{
     background-color: #3a2ec4;
 }
 
