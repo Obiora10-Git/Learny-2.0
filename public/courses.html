@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learny</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> 
-    <link rel="stylesheet" href="/css/styles/payments.css">
+    <link rel="stylesheet" href="/css/styles/courses.css ">
     <link href='fonts.googleapis.com' rel='stylesheet'>
 
 </head>
@@ -21,9 +21,9 @@
                 <ul>
                   <!-- //use javascript to make the nav text highlighted when the page is active-.>-->
                     <li><a href="/public/user-home.html">Home</a></li>
-                    <li><a href="/public/to-be-continued.html">Courses</a></li>
-                    <li><a href="/public/to-be-continued.html">Tutors</a></li>
-                   <li><a href="/public/to-be-continued.html">For Parents</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Tutors</a></li>
+                   <li><a href="">For Parents</a></li>
                 </ul>
             </nav>
             </div>
@@ -62,58 +62,72 @@
         </div>
     </header>
     <main>
-        <div class="pay-main">
-            <div class="payment-intro">
-                <div>
-                    <div class="learny_logo">
-                        <div class="learny-text">Learny</div>
+        <div class="main">
+            <div class="sec-1">
+                <div class="sec-1-intro">
+                    <div>
+                        <h1>Courses</h1>
+                        <p>Fun, bite sized learning adventures for kids and teens, from math quests to coding missions</p>
+                    </div>
+                    <div class="sec-1-divs">
+                        <div id="intro-div-1" class="intro-div div-blue">
+                            <div></div>
+                            <p>Ages 5 - 12 starter paths</p>
+                        </div>
+                        <div id="intro-div-2" class="intro-div div-blue">
+                            <div></div>
+                            <p>Safe, kid-friendly content</p>
+                        </div>
+                        <div id="intro-div-3" class="intro-div div-blue">
+                            <div></div>
+                            <p>Top-rated tutors & creators</p>
+                        </div>
                     </div>
                 </div>
+                <div class="sec-1-find div-blue">
+                    <div></div>
+                    <p>Find my child’s course</p>
+                </div>
+            </div>
+            <div class="sec-1-b">
                 <div>
-                    <div class="payment-extra">
-                        <h2>Payment Method</h2>
-                        <p>Credit/Debit Card</p>
-                    </div>
-                    <div class="payment-perms">
-                        <div id="brand-1" class="card" ></div>
-                        <div id="brand-2" class="card" ></div>
-                        <div id="brand-3" class="card" ></div>
+                    <p>Sort by</p>
+                </div>
+                <div id="m-p">
+                    <p>Most popular</p>
+                    <div class="drop-down-box">
+                        <div class="course-drop-down-icon"></div>
                     </div>
                 </div>
             </div>
-            <div class="payment-input">
-                <form action="" method="post">
-                    <fieldset>
-                        <div id="field-1" class="field">
-                            <div class="card-icon"></div>
-                            <label for="card-no">Card Number</label>
-                            <input id="card-no" type="text" inputmode="numeric" maxlength="19" placeholder="0000 0000 0000 0000" required/>
-                        </div>
-                        <div id="field-2" class="field">
-                            <div>
-                                <label for="expire-date">Expiry Date</label>
-                                <input id="expire-date" type="text" inputmode="numeric" maxlength="5" required/>
-                            </div>
-                            <div>
-                                <div class="question-icon"></div>
-                                <label for="security-no">Security Code</label>
-                                <input id="security-no" type="text" inputmode="numeric" maxlength="3" required/>
-                            </div>
-                        </div>
-                        <div id="field-3" class="field">
-                            <input type="checkbox" name="save-check" id="save-check"/>
-                            <div class="check-p">
-                                <p class="main-p">Save card for future purchases</p>
-                                <p class="lighter">This won’t affect how you pay for existing subscriptions and can be managed anytime</p>
-                            </div>
-                        </div>
-                        <div id="field-4" class="field">
-                            <button class="payment-btn">Pay</button>
-                        </div>
-                    </fieldset>
-                </form>
+            <div class="courses">
+                <div id="info-bar">
+                    <div id="filter">
+                        <div id="filter-title" class="title"><p>Filter</p></div>
+                        <div id="filter-clear"><p>Clear</p></div>
+                        <div></div>
+                    </div>
+                    <div id="age"></div>
+                    <div id="category"></div>
+                    <div id="duration"></div>
+                    <div id="language"></div>
+                    <div id="rating"></div>
+                </div>
+                <div class="course-grid">
+                    <div id="choice-box">
+                </div>
+                <div id="course-choice">
+                    <div id="fraction-quest" class="course-box"></div>
+                    <div id="1st-scratch-game" class="course-box"></div>
+                    <div id="mystery-story-club" class="course-box"></div>
+                    <div id="intro-to-songwriting" class="course-box"></div>
+                </div>
+                <div id="more-selection"></div>
+                </div>
+                
             </div>
         </div>
+       
     </main>
     <footer>
         <div class="footer">
@@ -183,6 +197,5 @@
             </div>
         </div>
     </footer>
-    <script src="/script/payments.js"></script>
 </body>
 </html>
