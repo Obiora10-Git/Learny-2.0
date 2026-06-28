@@ -343,7 +343,7 @@ nav a:active{
 }
 
 .intro-div{
-    height: 50px;
+    height: 2.6042vw;
     width: 20.5vw;
     border-radius: 25px;
     display: flex;
@@ -382,7 +382,7 @@ nav a:active{
 }
 
 .sec-1-find{
-    height: 60px;
+    height: 3.125vw;
     width: 20.5vw;
     border-radius: 25px;
     display: flex;
